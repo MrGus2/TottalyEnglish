@@ -1,28 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>College Web Games</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Basic Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            background-color: #444;
+            text-align: center;
+            padding: 10px;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        .content {
+            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-  <header>
-    <h1>Welcome to College Web Games</h1>
-    <p>Play some cool web-based games!</p>
-  </header>
 
-  <main>
-    <section id="games">
-      <h2>Featured Games</h2>
-      <ul>
-        <li><a href="games/game1.html">Game 1</a></li>
-        <li><a href="games/game2.html">Game 2</a></li>
-        <li><a href="games/game3.html">Game 3</a></li>
-      </ul>
-    </section>
-  </main>
+    <header>
+        <h1>Welcome to My Basic Website</h1>
+    </header>
 
-  <script src="app.js"></script>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Services</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <div class="content">
+        <h2>About This Website</h2>
+        <p>This is a basic HTML website template. You can customize it by adding more sections or styling as needed.</p>
+        <p>Feel free to modify the HTML and CSS to suit your needs!</p>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 My Basic Website</p>
+    </footer>
+
 </body>
 </html>
